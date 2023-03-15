@@ -12,6 +12,7 @@ function MealsOverviewScreen(props){
 
     function renderMealItem(itemData){
         const mealItemProps = {
+            id: itemData.item.id,
             title: itemData.item.title,
             imageUrl: itemData.item.imageUrl,
             complexity: itemData.item.complexity,
